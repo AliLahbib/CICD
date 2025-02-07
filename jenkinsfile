@@ -10,7 +10,7 @@ dockerImage = 'tpachat'
         stage("Cloning Project"){
             steps {
                 git branch: 'main', 
-                url: 'https://github.com/sawsanSe/CICD.git'
+                url: 'https://github.com/AliLahbib/CICD.git'
                 echo 'checkout stage'
             }
         }
